@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calculator/calculator",
+    "pages/moment/moment",
+    "pages/moment/moment"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "1801",
+    "navigationBarTextStyle": "black"
+  }
+}

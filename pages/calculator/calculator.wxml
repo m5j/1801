@@ -1,0 +1,22 @@
+<!--calculator.wxml-->
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <input type="digit" name="totalAmount" placeholder="总金额" /> <text>\n</text>
+  <block wx:for="{{memberList}}">
+    <input type="digit" name="{{item.name}}" placeholder="{{item.placeholder}}" />
+    <text>\n</text>
+  </block>
+  <view class="btn-area">
+    <button class="button_reset" formType="reset">重置</button>
+    <button class="button_submit" formType="submit">计算</button>
+  </view>
+</form>
+
+<text>\n</text>
+<view class="view_hr"></view>
+<text>\n</text>
+
+<block wx:for="{{resultList}}">
+  <text>{{item.name}}{{item.value}}</text>
+  <text>\n</text>
+</block>

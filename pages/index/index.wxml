@@ -1,0 +1,29 @@
+<!--index.wxml-->
+
+<!-- 轮播图 -->
+<swiper class="banner_swiper" indicator-dots="{{indicatorDots}}" autoplay="true" interval="3000" duration="1">
+  <block wx:for="{{bannerUrlList}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image banner_image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 用户信息 -->
+<view bindtap="bindViewTap" class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">欢迎，{{userInfo.nickName}}</text>
+</view>
+
+<!-- 两个button入口 -->
+<button class="entrance_button_1" bindtap="lifeMomentTaped">
+  生活圈
+</button>
+<button class="entrance_button_2" bindtap="calculatorTaped">
+  算账器
+</button>
+
+<!-- 底部装逼大图 -->
+<view class="view_bottom">
+  <image class="image_zhuangbi" src="{{zhuangbiImg}}"></image>
+</view>

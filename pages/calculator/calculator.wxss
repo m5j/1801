@@ -1,0 +1,25 @@
+/* calculator.wxss */
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 2.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button_reset {
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+}
+
+.button_submit {
+  width: 45%;
+  margin-right: 5%;
+}
+
+.view_hr {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}

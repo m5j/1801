@@ -1,0 +1,59 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.banner_swiper {
+  height: 380rpx;
+}
+
+.banner_image {
+  width: 100%;
+  height: 100%;
+}
+
+.entrance_button_1 {
+  width: 50%;
+  height: 100rpx;
+  margin-left: 0;
+  margin-top: 20rpx;
+  margin-bottom: 0;
+  background-color: #ffebcd;
+  line-height: 100rpx;
+  float: left;
+}
+
+.entrance_button_2 {
+  width: 50%;
+  height: 100rpx;
+  margin-right: 0px;
+  margin-top: 20rpx;
+  background-color: #98f5ff;
+  line-height: 100rpx;
+}
+
+.view_bottom {
+  margin-bottom: -2px;
+  width: 100%;
+}
+
+.image_zhuangbi {
+  width: 100%;
+  margin-bottom: -5px;
+  padding-bottom: 0px;
+  height: 285px;
+}
